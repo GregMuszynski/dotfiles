@@ -1,0 +1,20 @@
+[general]
+import = [
+  "~/.config/alacritty/themes/nordfox.toml"
+]
+
+[window]
+opacity = 0.94
+decorations = "None"
+padding = { x = 5, y = 5 }
+dimensions = { columns = 160, lines = 50 }
+
+[font]
+normal = { family = "BitstromWera Nerd Font Mono", style = "Regular" }
+bold = { family = "BitstromWera Nerd Font Mono", style = "Bold" }
+size = 11
+offset = { x = 0, y = 1 }
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+blink_interval = 678

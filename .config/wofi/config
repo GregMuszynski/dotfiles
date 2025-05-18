@@ -1,0 +1,7 @@
+mode=drun
+width=750
+height=450
+allow_images=true
+image_size=20
+prompt=Applications
+matching=fuzzy
