@@ -4,6 +4,7 @@ import = [
 ]
 
 [window]
+dynamic_title = false
 opacity = 0.94
 decorations = "None"
 padding = { x = 5, y = 5 }
