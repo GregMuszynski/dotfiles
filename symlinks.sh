@@ -1,6 +1,7 @@
 #!/bin/bash
 ln -s ~/dotfiles/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
 ln -s ~/dotfiles/.config/alacritty/themes/nordfox.toml ~/.config/alacritty/themes/nordfox.toml
+ln -s ~/dotfiles/.config/alacritty/themes/catppuccin_frappe.toml ~/.config/alacritty/themes/catppuccin_frappe.toml
 ln -s ~/dotfiles/.config/sway/config ~/.config/sway/config
 ln -s ~/dotfiles/.config/waybar/config.jsonc ~/.config/waybar/config.jsonc
 ln -s ~/dotfiles/.config/waybar/style.css ~/.config/waybar/style.css
