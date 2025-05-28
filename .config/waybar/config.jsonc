@@ -25,13 +25,13 @@
         "memory",
         "temperature",
         "backlight",
-        "keyboard-state",
-        "sway/language",
-        "battery",
-        "battery#bat2",
+        // "keyboard-state",
+        // "sway/language",
+        // "battery",
+        // "battery#bat2",
         "clock",
-        "tray",
-        "custom/power"
+        "tray"
+        // "custom/power"
     ],
     // Modules configuration
     // "sway/workspaces": {

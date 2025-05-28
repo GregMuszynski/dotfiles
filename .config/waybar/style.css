@@ -7,7 +7,7 @@
 window#waybar {
     background-color: rgba(43, 48, 59, 0.5);
     border-bottom: 1px solid rgba(100, 114, 125, 0.5);
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.75);
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -16,10 +16,10 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-/*
 window#waybar.empty {
     background-color: transparent;
 }
+/*
 window#waybar.solo {
     background-color: #FFFFFF;
 }
@@ -34,6 +34,11 @@ window#waybar.chromium {
     border: none;
 }
 
+window#waybar.Alacritty {
+    background-color: #303446;
+    border: none;
+}
+
 button {
     /* Use box-shadow instead of border so the text isn't offset */
     box-shadow: inset 0 -3px transparent;
@@ -45,7 +50,7 @@ button {
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
     background: inherit;
-    box-shadow: inset 0 -3px #ffffff;
+    box-shadow: inset 0 -3px #eeeeee;
 }
 
 /* you can set a style on hover for any module like this */
@@ -56,7 +61,7 @@ button:hover {
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
-    color: #ffffff;
+    color: #eeeeee;
 }
 
 #workspaces button:hover {
@@ -65,7 +70,7 @@ button:hover {
 
 #workspaces button.focused {
     background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
+    box-shadow: inset 0 -3px #eeeeee;
 }
 
 #workspaces button.urgent {
@@ -95,7 +100,7 @@ button:hover {
 #power-profiles-daemon,
 #mpd {
     padding: 0 10px;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.75);
 }
 
 #window,
@@ -170,12 +175,12 @@ label:focus {
 
 #cpu {
     background-color: transparent;
-    color: #fefefe;
+    color: rgba(255, 255, 255, 0.75);
 }
 
 #memory {
     background-color: transparent;
-    color: #fefefe;
+    color: rgba(255, 255, 255, 0.75);
 }
 
 #disk {
@@ -195,13 +200,13 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.75);
 }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.75);
 }
 
 #wireplumber {
@@ -236,7 +241,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: transparent;
 }
 
 #tray > .passive {
@@ -249,7 +254,7 @@ label:focus {
 }
 
 #idle_inhibitor {
-    background-color: #2d3436;
+    background-color: transparent;
 }
 
 #idle_inhibitor.activated {
@@ -303,7 +308,7 @@ label:focus {
 }
 
 #scratchpad.empty {
-	background-color: transparent;
+    background-color: transparent;
 }
 
 #privacy {
