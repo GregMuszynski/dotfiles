@@ -281,7 +281,7 @@ layer_effects "wofi" {
     blur enable;
     # blur_xray disable;
     # blur_ignore_transparent disable;
-    shadows enable;
+    # shadows enable;
     corner_radius 6;
     # margin 8;
     # shadow_blur_radius 8 8;
