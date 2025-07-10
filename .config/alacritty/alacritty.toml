@@ -17,3 +17,19 @@ offset = { x = 1, y = 1 }
 [cursor]
 style = { shape = "Block", blinking = "Always" }
 blink_interval = 678
+
+[terminal]
+shell = { program = "/usr/bin/tmux" }
+
+# Key bindings
+[[keyboard.bindings]]
+key = "Tab"
+mods = "Control"
+# chars = "\\x1b[1;5I" # This sends the custom sequence for Ctrl+Tab
+chars = "\uE000"
+
+[[keyboard.bindings]]
+key = "Tab"
+mods = "Control|Shift"
+# chars = "\\x1b[1;6I" # This sends the custom sequence for Ctrl+Shift+Tab
+chars = "\uE001"
