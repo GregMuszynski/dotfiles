@@ -4,8 +4,7 @@ import = [
 ]
 
 [window]
-dynamic_title = false
-decorations = "None"
+dynamic_title = true
 padding = { x = 5, y = 5 }
 dimensions = { columns = 160, lines = 50 }
 
